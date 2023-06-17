@@ -26,19 +26,23 @@ nav {
 
 .hamburger:hover ~ nav {
   opacity: 1;
+  background-color: mediumvioletred;
 }
+
 
 @keyframes top {
-  from {}
-  to {}
+  0% {transform: rotate(0)}
+  100% {transform: transformY(100)}
 }
+
 
 @keyframes middle {
-  from {}
-  to {}
+  0% {background: rebeccapurple;}
+  100% {background: mediumvioletred;}
 }
 
+
 @keyframes bottom {
-  from {}
-  to {}
+  0% {transform: rotate(0);}
+  100% {transform: transformY(100)}
 }
